@@ -1,51 +1,88 @@
-📰 TechNews Today - Portal de Tecnologia
+# 📰 TechNews Today — Portal de Tecnologia
 
-O TechNews Today é um projeto de portal de notícias focado no universo de tecnologia e inovação, desenvolvido com foco em semântica HTML5 e estilização moderna em CSS3 (incluindo Glassmorphism, CSS Grid e Flexbox).
+O **TechNews Today** é um portal de notícias voltado para o universo da **tecnologia e inovação**, desenvolvido com **HTML5 e CSS3**, utilizando recursos modernos como **Glassmorphism, CSS Grid e Flexbox**.
 
-👤 Autoria
+## 👤 Autoria
 
-Autora: Nicolly Bonalume
+* **Autora:** Nicolly Bonalume
+* **Turma:** 1º IE — Desenvolvimento de Sistemas (DS)
 
-Turma: 1º IE - Desenvolvimento de Sistemas (DS)
+## 🚀 Funcionalidades
 
-🚀 Funcionalidades e Destaques
+* 📌 **Header moderno:** cabeçalho fixo (*Sticky Header*) com efeito de *Glassmorphism*.
+* 🤖 **Notícia em destaque:** artigo principal sobre Inteligência Artificial.
+* ⏰ **Tag `<time>`:** utilização de elemento semântico para representar datas.
+* 📖 **Conteúdo retrátil:** utilização de `<details>` e `<summary>` para informações adicionais.
+* 🎥 **Vídeos:** integração de vídeos do YouTube utilizando `<iframe>`.
+* 📧 **Newsletter:** formulário para inscrição e seleção de áreas de interesse.
+* ✅ **Validação:** campo de e-mail com `required` e checkbox para aceite dos termos.
+* ✨ **Animações:** efeitos de `hover`, `scale` e `transition`.
+* 📱 **Responsividade:** adaptação do layout para diferentes tamanhos de tela.
+* 📩 **Contato:** link de e-mail utilizando `mailto`.
 
-Header Moderno (Sticky Header): Efeito de Glassmorphism com degradê no título do logotipo.
+## 🛠️ Tecnologias Utilizadas
 
-Notícia em Destaque: Artigo principal sobre Inteligência Artificial utilizando a tag semântica de tempo (<time>) e elemento retrátil (<details> / <summary>) para leitura estendida.
+### HTML5
 
-Mídia Integrada: Seção dedicada para exibição de vídeos do YouTube via <iframe>.
+O projeto utiliza elementos semânticos, como:
 
-Formulário de Newsletter:
+```html
+<header>
+<main>
+<article>
+<section>
+<time>
+<details>
+<summary>
+<footer>
+```
 
-Campo de e-mail com validação nativa (required).
+### CSS3
 
-Seleção de áreas de interesse (IA, Desenvolvimento Mobile, Tecnologias Web).
+Foram utilizados diversos recursos do CSS3:
 
-Checkbox de aceite dos termos de serviço.
+* **CSS Grid** — organização do layout.
+* **Flexbox** — alinhamento e distribuição dos elementos.
+* **Glassmorphism** — efeito de transparência e desfoque.
+* **Linear Gradient** — criação de gradientes.
+* **Box Shadow** — aplicação de sombras.
+* **Transitions** — transições suaves.
+* **Transform** — efeitos de escala e movimento.
+* **Media Queries** — adaptação para diferentes dispositivos.
 
-Botão com gradiente chamativo e efeitos de animação no ponteiro (hover e scale).
+## 📁 Estrutura do Projeto
 
-Rodapé Minimalista: Rodapé com direitos autorais e link direto para e-mail de contato (mailto).
+```text
+TechNews-Today/
+│
+├── index.html
+└── 10a_desafio.css
+```
 
-Layout Responsivo: Configurado via Media Queries para adaptar o grid em dispositivos maiores que 768px.
+### 📄 Arquivos
 
-🛠️ Tecnologias Utilizadas
+| Arquivo           | Descrição                                  |
+| ----------------- | ------------------------------------------ |
+| `index.html`      | Estrutura e conteúdo do portal de notícias |
+| `10a_desafio.css` | Estilos, layout, efeitos e responsividade  |
 
-HTML5: Marcadores semânticos (<header>, <main>, <article>, <section>, <time>, <details>, <footer>, entre outros).
+## 🎯 Objetivo
 
-CSS3:
+O objetivo do projeto é aplicar conhecimentos de **HTML5 e CSS3** na criação de um portal de notícias moderno e responsivo.
 
-Layout: CSS Grid (grid-template-columns) e alinhamentos modernos.
+Durante o desenvolvimento, foram trabalhados conceitos de:
 
-Efeitos Visuais: Glassmorphism (backdrop-filter), gradientes lineares (linear-gradient) e sombras.
+* Estrutura semântica;
+* Organização de layouts;
+* CSS Grid e Flexbox;
+* Formulários HTML;
+* Incorporação de vídeos;
+* Responsividade;
+* Animações e transições;
+* Design moderno com Glassmorphism.
 
-Interatividade: Animações e transições sutis (transition, transform: translateY, transform: scale).
+## 📚 Projeto Acadêmico
 
-Responsividade: Ajuste de layout com @media (min-width: 768px).
+Projeto desenvolvido para a disciplina de **Desenvolvimento de Sistemas**.
 
-📁 Estrutura do Projeto
-
-.
-├── index.html       # Estrutura HTML do portal de notícias
-└── 10a_desafio.css  # Folha de estilo CSS responsável pelo design e responsividade
+**Nicolly Bonalume — 1º IE - DS**
